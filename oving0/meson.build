@@ -23,8 +23,7 @@ else
   compiler_flags = ['-Wconversion', '-fdiagnostics-color=always', '-Werror=return-type', '-fcolor-diagnostics', '-fansi-escape-codes']
 endif
 
-src = ['main.cpp'
-      ,'other.cpp']
+src = []
 
 exe = executable(
   'program',
